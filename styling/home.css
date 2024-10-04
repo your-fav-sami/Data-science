@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    background-image: url('../assets/images/article-nav-bg.png' );
+    background-position: center;
+    background-size: cover;
+
+}
+.navbar a{
+    color: white;
+
+}
+.navbar ul li{
+    margin-left: 12px;
+}
+/* Side Bar */
+/* Hero Card */
+.card-head{
+    font-size: 24px;
+}
+ .card-container{
+    width: 70%;
+    color: white;
+    background-color: #002046;
+    display: block;
+}
+ .bround{
+    border-radius: 15px;
+}
+.card-email{
+    color: rgb(214, 214, 214) ;
+}
+.input-wrapper input::placeholder{
+    color: rgb(188, 188, 188);
+}
+.card-container .btn{
+    background: linear-gradient(300deg, rgba(99,164,255,1) 0%, rgba(131,234,241,1) 100%);
+}
+
+/* Main Content */
+.layout-wrapper{
+    width: 85%;
+}
+.topic button{
+   
+    background-color: #EEF7FF;
+    color: #279EFF;
+
+}
+.heading {
+    font-weight: 600;
+    font-size: 45px;
+
+}
+.head-question{
+    font-weight: 700;
+    font-size: 16px;
+    color: #002046;
+
+}
+.head-disc{
+    color: #808080;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+}
+.user-prof{
+    color: #808080;
+}
+@media screen and (max-width: 1100px) {
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 14px;
+
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .card-container{
+        width: 100%;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 12px;
+
+    }
+
+}
+@media screen and (max-width: 756px) {
+    .card-container{
+display: none;
+    }
+    
+
+}
