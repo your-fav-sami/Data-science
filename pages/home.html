@@ -16,7 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/bad722d432.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/bad722d432.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Data Science</title>
   </head>
@@ -74,11 +77,11 @@
         </nav>
       </div>
       <!-- Hero Section -->
-      <section class="layout py-5 border border-danger">
-        <div class="layout-wrapper mx-auto border border-primary">
-          <div class="row border w-100 mx-auto">
+      <section class="layout py-5">
+        <div class="layout-wrapper mx-auto">
+          <div class="row w-100 mx-auto">
             <!-- Main Content -->
-            <div class="col-lg-8 col-12 border">
+            <div class="col-lg-8 col-12">
               <div class="topic border-0">
                 <button class="btn">topic</button>
               </div>
@@ -93,12 +96,10 @@
                   <div class="pfp rounded-circle me-2">
                     <img src="../assets/images/Avatar.png" alt="" class="" />
                   </div>
-                  <p class="m-0 user-name border">Albert Flores</p>
+                  <p class="m-0 user-name">Albert Flores</p>
                 </div>
                 <!-- Upload time -->
-                <div
-                  class="user-time w-50 d-flex justify-content-between border"
-                >
+                <div class="user-time w-50 d-flex justify-content-between">
                   <p class="m-0">5 hours ago</p>
                   <p class="m-0">Time to read 5m</p>
                 </div>
@@ -129,7 +130,7 @@
                 along the information highway will close the loop on focusing
                 solely on the bottom line..
               </p>
-              <div class="images-wrapper border d-flex justify-content-between">
+              <div class="images-wrapper d-flex justify-content-between">
                 <img
                   class="bround"
                   src="../assets/images/blog-card-5.png"
@@ -163,7 +164,7 @@
                 focusing solely on the bottom line..
               </div>
               <!-- >Recommended for You -->
-              <div class="recommended-wrapper border">
+              <div class="recommended-wrapper">
                 <div
                   class="recommended-box d-flex align-items-center justify-content-between mb-4"
                 >
@@ -178,7 +179,7 @@
                 <div class="card-parent d-flex justify-content-between">
                   <!-- Card 1 -->
                   <div
-                    class="recom-card border d-flex flex-column justify-content-between"
+                    class="recom-card d-flex flex-column justify-content-between"
                   >
                     <img
                       class="w-100 bround"
@@ -193,7 +194,7 @@
                     </p>
                     <!-- Profile Data -->
                     <div
-                      class="user-prof card-user-prof prof d-flex align-items-center border justify-content-between"
+                      class="user-prof card-user-prof prof d-flex align-items-center justify-content-between"
                     >
                       <div class="d-flex align-items-center">
                         <div class="card-pfp rounded-circle me-2">
@@ -210,7 +211,7 @@
                   </div>
                   <!-- Card 2 -->
                   <div
-                    class="recom-card border d-flex flex-column justify-content-between"
+                    class="recom-card d-flex flex-column justify-content-between"
                   >
                     <img
                       class="w-100 bround"
@@ -225,7 +226,7 @@
                     </p>
                     <!-- Profile Data -->
                     <div
-                      class="user-prof card-user-prof prof d-flex align-items-center border justify-content-between"
+                      class="user-prof card-user-prof prof d-flex align-items-center justify-content-between"
                     >
                       <div class="d-flex align-items-center">
                         <div class="card-pfp rounded-circle me-2">
@@ -243,11 +244,11 @@
                 </div>
               </div>
               <!-- Comment Section -->
-              <div class="comment border my-5">
+              <div class="comment my-5">
                 <p class="comment-heading">Comments</p>
                 <!-- comment 1 -->
 
-                <div class="comment-wrapper my-4 d-flex border">
+                <div class="comment-wrapper my-4 d-flex">
                   <div class="comment-pfp me-3">
                     <img src="../assets/images/comment-Avatar.png" alt="" />
                   </div>
@@ -264,7 +265,7 @@
                   </div>
                 </div>
                 <!-- comment 2 -->
-                <div class="comment-wrapper d-flex border">
+                <div class="comment-wrapper d-flex">
                   <div class="comment-pfp me-3">
                     <img src="../assets/images/comment-Avatar.png" alt="" />
                   </div>
@@ -281,14 +282,15 @@
                   </div>
                 </div>
                 <!-- Comment text area -->
-                <div class="type-comment border mt-5">
+                <div class="type-comment mt-5">
                   <p>Write Comment</p>
                   <div class="text-area">
-                    <input
-                      class="bround py-5"
-                      type="text"
-                      placeholder="Write Comment"
-                    />
+                    <textarea
+                      name=""
+                      id=""
+                      class="w-100 bround"
+                      placeholder="Write a message"
+                    ></textarea>
                   </div>
                   <div class="sub-btn-card mt-3">
                     <a
@@ -302,7 +304,9 @@
             </div>
 
             <!-- side card -->
-            <div class="col-4 display-md-block display-none border">
+            <div
+              class="col-4 display-md-block display-none border border-danger"
+            >
               <div class="card-container bround mx-auto p-4 p-3">
                 <p class="card-head my-3">Subscribe for our Newsletters</p>
                 <p class="card-para">Get the latest articles in your Inbox</p>
@@ -322,55 +326,96 @@
                   >
                 </div>
               </div>
+              <!-- Side Card Popular News section -->
+              <div
+                class="side-news-head my-5 border border-primary d-flex justify-content-between align-items-center"
+              >
+                <p class="m-0">Popular News</p>
+                <div><button class="btn px-3 px-xl-5">See More</button></div>
+              </div>
+             <!-- cards -->
+               <div class="side news-cards">
+                 <!-- Card 1 --> 
+              <div class="news-card-wrapper  my-2  d-flex">
+                <div class="news-card-img">
+                  <img src="../assets/images/news-img-1.svg" class="image-fluid" alt="" />
+                </div>
+                <div class="news-card-text d-flex flex-column justify-content-evenly px-3">
+                  <p class="m-0">Our “Secret” Formula to Online Workshops</p>
+                  <a href="" >Learn More <i class="fa-solid fa-arrow-right mx-3"></i></a>
+                </div>
+              </div>
+               <!-- Card 2 --> 
+               <div class="news-card-wrapper  my-2  d-flex">
+                <div class="news-card-img">
+                  <img src="../assets/images/news-img-2.svg" class="image-fluid" alt="" />
+                </div>
+                <div class="news-card-text d-flex flex-column justify-content-evenly px-3">
+                  <p class="m-0">Digital Product Innovations from 
+                    Warsaw with Love</p>
+                  <a href="" >Learn More <i class="fa-solid fa-arrow-right mx-3"></i></a>
+                </div>
+              </div>
+               <!-- Card 3 --> 
+               <div class="news-card-wrapper  my-2  d-flex">
+                <div class="news-card-img">
+                  <img src="../assets/images/news-img-3.svg" class="image-fluid" alt="" />
+                </div>
+                <div class="news-card-text d-flex flex-column justify-content-evenly px-3">
+                  <p class="m-0">People Don’t Buy Products, They 
+                    Buy Better Versions of Themselves</p>
+                  <a href="" >Learn More <i class="fa-solid fa-arrow-right mx-3"></i></a>
+                </div>
+              </div>
+               
+              
             </div>
           </div>
-
+          </div>
         </div>
         <!-- News Letter -->
-        <div class="news-letter py-5 d-flex flex-column align-items-center border border-secondary">
-          <div class="w-50 text-center border border-secondary">
+        <div class="news-letter py-5 d-flex flex-column align-items-center">
+          <div class="w-50 text-center">
             <p class="news-head">Sign Up for Our Newsletters</p>
           </div>
-          <div class="w-50 text-center head-disc border border-secondary ">
+          <div class="w-50 text-center head-disc">
             <p class="">Get The Latest Articles to Your Inbox</p>
           </div>
-          <div class=" rounded-pill border border-danger email-outter p-1 p-md-3">
-            <div
-              class="email-inner border border-secondary d-flex border align-items-center border  rounded-pill p-0 p-md-1 "
-            >
-              <div class="email-input px-2 "><input type="email" placeholder="Your Email Here" class="border-0 rounded-pill" /></div>
-              <div class="sub-btn-card w-100">
-                <a
-                  href="#"
-                  class="btn border-0 btn-primary rounded-pill px-xl-5 px-3 py-2 w-100"
-                  >Subscribe</a
-                >
-              </div>
+          <div class="email-outter p-3">
+            <div class="news-input-wrapper">
+              <input type="email" class="w-100" placeholder="Your Email Here" />
+              <button class="btn px-4">
+                <a href="#">Subscribe</a>
+              </button>
             </div>
           </div>
         </div>
       </section>
       <!-- footer -->
-       <footer class="foot-wrapper text-center py-5">
-        <div class="foot-head"><p>Empower Your Career With NatLuk Community</p></div>
-        <div class="foot-disc"><p>Join the SuperDataScience Communitywith 50.000 Members</p></div>
+      <footer class="foot-wrapper text-center py-5">
+        <div class="foot-head">
+          <p>Empower Your Career With NatLuk Community</p>
+        </div>
+        <div class="foot-disc">
+          <p>Join the SuperDataScience Communitywith 50.000 Members</p>
+        </div>
         <div class="foot-button">
-          <div class="btn btn-primary">Join For Free</div>
+          <div class="btn btn-primary px-4">Join For Free</div>
         </div>
         <div class="foot-links my-3">
           <a href="" class="me-1">Terms and Conditions</a>
-          <a href="" class="me-1">• Privacy Policy</a>
-          <a href="" class="me-1">• Contact us</a>
-          <a href="" class="me-1">• Careers</a>
+          <a href="" class="me-1">Privacy Policy</a>
+          <a href="" class="me-1">Contact us</a>
+          <a href="" class="me-1">Careers</a>
         </div>
-        <div class="foot-social-links">
+        <div class="foot-social-links border border-danger">
           <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-discord"></i>
         </div>
-       </footer>
+      </footer>
     </div>
 
     <script
