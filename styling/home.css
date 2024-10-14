@@ -60,12 +60,12 @@ a{
   );
 }
 .side-news-head p{
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 800;
   color: #002046;
 }
 .side-news-head button{
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 24px;
   color: white;
   background: linear-gradient(
@@ -303,7 +303,7 @@ background: linear-gradient(
     font-weight: 600;
   }
   .side-news-head p{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
   }
   .side-news-head button{
@@ -339,6 +339,13 @@ background: linear-gradient(
   .news-card-wrapper a{
     font-size: 12px;
     font-weight: 600;
+  }
+  .side-news-head p{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .side-news-head button{
+    font-size: 13px;
   }
 }
 
