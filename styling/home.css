@@ -350,7 +350,7 @@ background: linear-gradient(
 }
 
 @media screen and (max-width: 992px) {
-  .card-container {
+  .remove-display{
     display: none;
   }
 
@@ -490,7 +490,7 @@ background: linear-gradient(
     font-size: 12px;
   }
   .foot-button .btn {
-    font-size: 12px;
+    font-size: 16px;
   }
   .foot-social-links {
     font-size: 30px;}
@@ -557,7 +557,7 @@ background: linear-gradient(
     font-size: 10px;
   }
   .foot-button .btn {
-    font-size: 10px;
+    font-size: 12px;
   }
   .foot-links a {
     font-size: 8px;
