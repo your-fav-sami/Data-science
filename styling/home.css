@@ -498,8 +498,14 @@ background: linear-gradient(
       margin-right: 20px;
       padding: 5px;
     }
+    .news-input-wrapper input::placeholder {
+      font-size: 14px;
+    }
 }
 @media screen and (max-width: 460px) {
+  .layout-wrapper {
+    width: 95%;
+  }
   .user-name {
     font-weight: 600;
     font-size: 10px;
