@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+.garder {
+  border: 1px dashed red;
+}
+.navbar {
+  /* background-image: url("../assets/images/article-nav-bg.png"); */
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar ul li {
+  margin-left: 12px;
+}
+.bg-parent {
+  background-image: url("../assets/images/contact-header-bg-1400x995.png");
+  background-position: center;
+  background-size: cover;
+  
+}
+/* Hero */
+.hero-wrapper{
+  width: 85%;
+}
+.hero-content{
+
+}
+.first-heading{
+  font-size: 30px;
+  font-weight: 500;
+  color: #00B3FE;
+}
+.second-heading{
+  color: white;
+  font-weight: 500;
+  font-size: 60px;
+}
+.title{
+  font-size: 30px;
+  color: white;
+}
+.disc{
+  font-size: 18px;
+  color: white;
+  font-weight: 200;
+}
+.heading-content li{
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
+.li-number{
+  font-size: 18px;
+  font-weight: 500;
+}
+.li-text{
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
