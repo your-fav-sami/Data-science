@@ -35,7 +35,7 @@
   width: 85%;
 }
 .hero-content{
-
+  width: 60%;
 }
 .first-heading{
   font-size: 30px;
@@ -50,6 +50,8 @@
 .title{
   font-size: 30px;
   color: white;
+  font-weight: 600;
+
 }
 .disc{
   font-size: 18px;
@@ -70,5 +72,207 @@
   margin-left: 8px;
   font-size: 18px;
   font-weight: 200;
+  
 }
+/* Sign Up Card */
+.signup-wrapper{
+  background-color: white;
+  box-shadow: 0px 1px 12px 0px rgb(167, 167, 167);
+  border: none;
+  border-radius: 24px;
+bottom: -100px;
+right: 0px;
+}
+.signup-heading{
+ font-weight: 600;
+  font-size: 30px;
+}
+.credential{
+  /* display: flex; */
+  position: relative;
+}
+.credential i{
+  color: #A6A6A6;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%,-50%);
+}
+.credential input{
+  background-color: #EDEEEF;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px 45px;
+  width: 100%;
+}
+.credential input::placeholder{
+  color: #A6A6A6;
+  font-size: 14px;
+}
+.signup-checkbox{
+  font-size: 12px;
+}
+.signup-checkbox a{
+  text-decoration: none;
+  color: #00B3FE;
+}
+.signup-button button{
+  border: none;
+  border-radius: 5px;
+  background-color: #00B3FE;
+  color: white;
+  padding: 10px 60px;
+}
+
+@media screen and (max-width: 1100px){}
+@media screen and (max-width: 992px){
+  .signup-wrapper{
+    display: none;
+  }
+  .first-heading{
+    font-size: 26px;
+    font-weight: 500;
+    color: #00B3FE;
+  }
+  .second-heading{
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+  }
+  .title{
+    font-size: 26px;
+    color: white;
+  }
+  .disc{
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+  }
+  .li-number{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .li-text{
+    font-size: 16px;
+    font-weight: 200;
+    
+  }
+  
+}
+@media screen and (max-width: 768px){
+ 
+  .hero-wrapper{
+    width: 100%;
+  }
+  .hero-content{
+    width: 100%;
+
+  }
+  .hero-heading{
+    padding: 100px 10%;
+  }
+  .heading-content{
+    background: white;
+    padding: 0px 10%;
+
+  }
+  .first-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: #00B3FE;
+  }
+  .second-heading{
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+  }
+  .title{
+    font-size: 24px;
+    color: #002046;
+  }
+  .disc{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 200;
+    line-height:20px;
+  }
+  .li-number{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+
+  }
+  .li-text{
+    font-size: 16px;
+    font-weight: 200;
+    color: #757575;
+
+    
+  }
+  
+}
+@media screen and (max-width: 620px){}
+@media screen and (max-width: 500px){
+  .hero-heading{
+    padding: 80px 5%;
+  }
+  .heading-content{
+    padding: 0px 5%;
+
+  }
+  .first-heading{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .second-heading{
+    font-weight: 500;
+    font-size: 35px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .disc{
+    font-size: 14px;
+    line-height:18px;
+  }
+  .li-number{
+    font-size: 14px;
+
+  }
+  .li-text{
+    font-size: 14px;
+   
+  }
+}
+@media screen and (max-width: 420px){
+ 
+  .first-heading{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .second-heading{
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .title{
+    font-size: 16px;
+  }
+  .disc{
+    font-size: 12px;
+    font-weight: 300;
+    line-height:18px;
+  }
+  .li-number{
+    font-size: 12px;
+
+  }
+  .li-text{
+    font-size: 12px;
+    font-weight: 300;
+   
+  }
+}
+@media screen and (max-width: 390px){}
 
